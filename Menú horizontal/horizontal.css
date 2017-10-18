@@ -1,0 +1,41 @@
+/* #2E2E2A color de fondo
+#F9A91A color de hover */
+
+body{
+	font-family: sans-serif;
+}
+
+nav{
+	/*outline: 1px solid yellow;*/
+}
+
+ul{
+	/*outline: 1px solid blue;*/
+	list-style: none;
+	background-color: #2E2E2A;
+	margin: 0;
+	padding: 0;
+	line-height: 40px;
+	overflow: auto;
+}
+
+li{
+	/*outline: 1px solid red;*/
+	width: 100px;
+	/*display: inline-block;*/
+	float: left;
+	text-align: center;
+}
+
+a{
+	/*outline: 1px solid green;*/
+	text-decoration: none;
+	display: block;
+	width: 100px;
+	color: white;
+}
+
+a:hover{
+	background-color: #F9A91A;
+	color: black;
+}
